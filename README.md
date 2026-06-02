@@ -1,37 +1,120 @@
 # Kevin Warsh Perspective Skill
 
-Kevin Warsh-style perspective skill for central banking, monetary policy, inflation, Fed independence, balance-sheet policy, financial stability, bank regulation, and US economic governance.
+一个用于 Codex / Skill 系统的 Kevin Warsh 视角 Skill。它把 Kevin Warsh 公开材料中的央行判断框架蒸馏成可运行的分析工具，适合分析美联储政策、通胀、QE/QT、金融稳定、央行独立性、银行监管和财政-货币边界问题。
 
-## What it does
+> Boundary: this skill is based on public information only. It does not speak for Kevin Warsh and does not claim access to private views.
 
-- Applies Warsh-style institutional, market, and balance-sheet reasoning to Fed policy questions.
-- Separates rates, QE/QT, liquidity facilities, supervision, and fiscal policy.
-- Includes historical backtests and scenario stress tests for 2008 crisis meetings, 2010 QE2, 2020 COVID QE, 2022 inflation, 2023 SVB/BTFP, and political pressure for rate cuts.
-- Uses public information only; it does not claim private knowledge of Kevin Warsh's views.
+## 用途
 
-## Install
+这个 Skill 适合在这些场景中触发：
 
-After this repository is on GitHub:
+- 分析 FOMC 利率决策、通胀路径、降息/加息争议。
+- 判断 QE、QT、资产负债表扩张或缩表的制度后果。
+- 分析金融危机、银行挤兑、流动性工具、存款保护和救助条款。
+- 讨论美联储独立性、国会监督、白宫施压、财政主导风险。
+- 用 Warsh 风格的市场仪表盘检查通胀、就业、信用利差、国债市场流动性、美元融资和风险资产反应。
+- 做历史回测：看一个 Warsh-style Skill 是否能解释他后来真实行为或公开观点。
+
+## 核心模型
+
+Skill 中提炼了 7 个核心心智模型：
+
+1. Price Stability Is Institutional Capital
+2. Independence Is Earned by Staying in Lane
+3. Crisis Tools Must Not Become Ordinary Governance
+4. The Balance Sheet Is Policy
+5. The Market Dashboard Is Not a Crystal Ball
+6. Market Discipline Beats State-Client Finance
+7. Communication Is Market Operations
+
+另外加入了几个关键校准：
+
+- 不要把 Warsh 简化成“鹰派”。
+- 不要把反 QE 常态化误读成反危机救助。
+- 不要从强烈内部反对自动推断公开 dissent。
+- 区分三种身份模式：Fed Governor、外部改革批评者、Federal Reserve Chair。
+- 危机救助不只问“救不救”，还要审计救助条款设计：保护谁、抵押品怎么估值、谁承担损失、如何退出。
+
+## 安装
+
+如果这个仓库已经上传到 GitHub：
 
 ```bash
 npx skills add Biaogo94/kevin-warsh-perspective-skill -a codex
 ```
 
-If installing from a local checkout, copy this folder into your Codex skills directory or use your skill manager's local install flow.
+本地安装时，可以把整个仓库目录复制到 Codex 的 skills 目录，或使用你的 Skill 管理器支持的本地安装流程。
 
-## Contents
+## 使用示例
 
-- `SKILL.md` - activation rules, operating workflow, mental models, heuristics, expression DNA, and source map.
-- `agents/openai.yaml` - UI metadata.
-- `references/research/` - distilled research notes, backtests, dashboards, and evaluation suite.
+```text
+Use Kevin Warsh perspective to analyze whether the Fed should cut rates while inflation is still above target.
+```
 
-## Validation
+```text
+用 Warsh 视角分析 2023 年 SVB 事件：Fed 应不应该保护存款人并推出 BTFP？
+```
 
-The skill passes:
+```text
+如果财政赤字很高、白宫要求降息、但核心通胀仍然偏高，Warsh-style Fed Chair 会怎么回应？
+```
+
+## 目录结构
+
+```text
+.
+|-- SKILL.md
+|-- agents/
+|   `-- openai.yaml
+`-- references/
+    `-- research/
+        |-- 01-writings.md
+        |-- 02-conversations.md
+        |-- 03-expression-dna.md
+        |-- 04-external-views.md
+        |-- 05-decisions.md
+        |-- 06-timeline.md
+        |-- 07-fomc-transcripts.md
+        |-- 08-backtest.md
+        |-- 09-comparative-lineage.md
+        |-- 10-warsh-dashboard.md
+        |-- 11-chair-constraints.md
+        |-- 12-evaluation-suite.md
+        `-- 13-scenario-stress-tests.md
+```
+
+## 研究与测试
+
+已包含两层测试：
+
+- 历史回测：2008 Lehman/AIG、2008 ZLB、2010 reinvestment、2010 QE2。
+- 压力场景：2020 COVID QE、2022 通胀、2023 SVB/BTFP、财政压力下要求降息。
+
+当前测试结论：
+
+```text
+Historical backtest: 4 strong matches, 1 partial match, 0 misses
+Scenario stress tests: 3 strong matches, 1 strong-to-partial match, 0 misses
+```
+
+## 验证
+
+本地验证通过：
 
 ```text
 quick_validate: Skill is valid!
 Nuwa quality_check: 6/6
 ```
+
+## 来源边界
+
+主要材料来自公开来源，包括：
+
+- Federal Reserve official biography and speeches
+- Official FOMC transcripts
+- 2014 Bank of England transparency review
+- Hoover Institution interviews and materials
+- 2026 Senate Banking nomination hearing materials
+- Federal Reserve, BLS, Treasury/FDIC/Fed official releases for scenario tests
 
 Generated using the Nuwa skill methodology from https://github.com/alchaincyf/nuwa-skill.
