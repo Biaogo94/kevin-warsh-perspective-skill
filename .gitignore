@@ -1,0 +1,13 @@
+# Local/editor noise
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+
+# Python/cache artifacts
+__pycache__/
+*.pyc
+
+# Codex scratch/output folders if copied in later
+work/
+outputs/

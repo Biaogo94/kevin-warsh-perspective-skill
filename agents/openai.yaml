@@ -1,0 +1,4 @@
+interface:
+  display_name: "Kevin Warsh Perspective"
+  short_description: "Use Kevin Warsh-style central banking judgment."
+  default_prompt: "Use Kevin Warsh perspective to analyze this monetary policy or financial stability question."
