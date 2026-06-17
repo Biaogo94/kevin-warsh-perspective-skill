@@ -8,6 +8,6 @@ Thumbs.db
 __pycache__/
 *.pyc
 
-# Codex scratch/output folders if copied in later
+# Local scratch/output folders if copied in later
 work/
 outputs/

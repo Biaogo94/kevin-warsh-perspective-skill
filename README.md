@@ -1,8 +1,14 @@
 # Kevin Warsh Perspective Skill
 
-一个用于 Codex / Skill 系统的 Kevin Warsh 视角 Skill。它把 Kevin Warsh 公开材料中的央行判断框架蒸馏成可运行的分析工具，适合分析美联储政策、通胀、QE/QT、金融稳定、央行独立性、银行监管和财政-货币边界问题。
+一个适配主流 AI Agent CLI 工具的 Kevin Warsh 视角 Skill。它把 Kevin Warsh 公开材料中的央行判断框架蒸馏成可运行的分析工具，适合分析美联储政策、通胀、QE/QT、金融稳定、央行独立性、银行监管和财政-货币边界问题。
 
 > Boundary: this skill is based on public information only. It does not speak for Kevin Warsh and does not claim access to private views.
+
+## 兼容性
+
+这是一个通用 AI Agent Skill 包，不是 Codex 专用 Skill。它遵循 `skills` CLI 可识别的标准结构：仓库根目录包含 `SKILL.md`，并把扩展资料放在 `references/` 中。
+
+安装时，`skills` CLI 会根据当前环境安装到检测到的 Agent；也可以用 `--agent` 指定某个 Agent，或用 `--agent '*'` 安装到所有支持的 Agent。
 
 ## 用途
 
@@ -37,10 +43,10 @@ Skill 中提炼了 7 个核心心智模型：
 
 ## 安装
 
-推荐使用完整 GitHub URL，并明确指定 skill 名称：
+推荐使用完整 GitHub URL，并明确指定 skill 名称。默认情况下，`skills` CLI 会安装到当前环境检测到的 Agent：
 
 ```bash
-npx skills add https://github.com/Biaogo94/kevin-warsh-perspective-skill --skill kevin-warsh-perspective -a codex
+npx skills add https://github.com/Biaogo94/kevin-warsh-perspective-skill --skill kevin-warsh-perspective
 ```
 
 这个仓库当前只包含一个 Skill：`kevin-warsh-perspective`。仍然建议显式写 `--skill kevin-warsh-perspective`，这样命令和多 Skill 仓库的标准安装方式一致，也避免 CLI 在仓库结构变化后选错。
@@ -51,19 +57,31 @@ npx skills add https://github.com/Biaogo94/kevin-warsh-perspective-skill --skill
 npx skills add https://github.com/Biaogo94/kevin-warsh-perspective-skill --list
 ```
 
+如果要安装到所有支持的 Agent：
+
+```bash
+npx skills add https://github.com/Biaogo94/kevin-warsh-perspective-skill --skill kevin-warsh-perspective --agent '*'
+```
+
+如果只想安装到某个 Agent，可以指定 `--agent <agent-name>`。例如安装到 Codex：
+
+```bash
+npx skills add https://github.com/Biaogo94/kevin-warsh-perspective-skill --skill kevin-warsh-perspective --agent codex
+```
+
 如果要安装到全局用户级目录，而不是当前项目目录：
 
 ```bash
-npx skills add https://github.com/Biaogo94/kevin-warsh-perspective-skill --skill kevin-warsh-perspective -a codex --global
+npx skills add https://github.com/Biaogo94/kevin-warsh-perspective-skill --skill kevin-warsh-perspective --global
 ```
 
 安装后可以检查：
 
 ```bash
-npx skills list -a codex
+npx skills list
 ```
 
-本地安装时，可以把整个仓库目录复制到 Codex 的 skills 目录，或使用你的 Skill 管理器支持的本地安装流程。
+本地安装时，可以把整个仓库目录复制到目标 Agent 的 skills 目录，或使用你的 Skill 管理器支持的本地安装流程。
 
 ## 使用示例
 
