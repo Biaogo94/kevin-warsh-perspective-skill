@@ -37,10 +37,30 @@ Skill 中提炼了 7 个核心心智模型：
 
 ## 安装
 
-如果这个仓库已经上传到 GitHub：
+推荐使用完整 GitHub URL，并明确指定 skill 名称：
 
 ```bash
 npx skills add https://github.com/Biaogo94/kevin-warsh-perspective-skill --skill kevin-warsh-perspective -a codex
+```
+
+这个仓库当前只包含一个 Skill：`kevin-warsh-perspective`。仍然建议显式写 `--skill kevin-warsh-perspective`，这样命令和多 Skill 仓库的标准安装方式一致，也避免 CLI 在仓库结构变化后选错。
+
+安装前可以先列出仓库中可用的 Skill：
+
+```bash
+npx skills add https://github.com/Biaogo94/kevin-warsh-perspective-skill --list
+```
+
+如果要安装到全局用户级目录，而不是当前项目目录：
+
+```bash
+npx skills add https://github.com/Biaogo94/kevin-warsh-perspective-skill --skill kevin-warsh-perspective -a codex --global
+```
+
+安装后可以检查：
+
+```bash
+npx skills list -a codex
 ```
 
 本地安装时，可以把整个仓库目录复制到 Codex 的 skills 目录，或使用你的 Skill 管理器支持的本地安装流程。
