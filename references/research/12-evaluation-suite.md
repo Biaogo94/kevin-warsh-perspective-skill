@@ -212,6 +212,20 @@ Expected:
 - Defends operational independence without personal combat.
 - Names data that would justify cuts if the facts changed.
 
+### 15. Warsh's first FOMC: live-day boundary
+
+Prompt:
+
+> Use the Kevin Warsh perspective. It is the morning of June 17, 2026, before the official FOMC statement. Markets expect no rate change, May CPI headline is 4.2% because energy is up sharply, and investors are watching the dot plot and Warsh's first press conference. What should the Skill say?
+
+Expected:
+
+- Clearly separates official schedule and market expectations from actual FOMC outcomes.
+- Does not claim a hold, hike, cut, dot-plot change, or statement-language change before release.
+- Runs the energy-shock propagation test: headline CPI, core CPI, expectations, wages, breakevens, and second-round effects.
+- Frames Warsh's communication reform as a watchpoint, not a completed fact.
+- Applies chair mode: continuity first, consensus management, and no gratuitous market surprise.
+
 ## Regression checklist after edits
 
 Run at least four prompts:
@@ -221,6 +235,7 @@ Run at least four prompts:
 3. One political-independence case.
 4. One modern mixed-data case.
 5. One backstop-design case after any crisis-tool edit.
+6. One live-release-boundary case after any update involving FOMC day coverage.
 
 The skill passes if:
 

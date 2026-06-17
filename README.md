@@ -80,7 +80,8 @@ Use Kevin Warsh perspective to analyze whether the Fed should cut rates while in
         |-- 10-warsh-dashboard.md
         |-- 11-chair-constraints.md
         |-- 12-evaluation-suite.md
-        `-- 13-scenario-stress-tests.md
+        |-- 13-scenario-stress-tests.md
+        `-- 14-recent-developments-2026-06-17.md
 ```
 
 ## 研究与测试
@@ -89,6 +90,7 @@ Use Kevin Warsh perspective to analyze whether the Fed should cut rates while in
 
 - 历史回测：2008 Lehman/AIG、2008 ZLB、2010 reinvestment、2010 QE2。
 - 压力场景：2020 COVID QE、2022 通胀、2023 SVB/BTFP、财政压力下要求降息。
+- 最新动态校准：2026-06-17 Warsh 首次 FOMC 之前的官方发布边界、May 2026 CPI 能源冲击、dot plot/SEP 与沟通改革 watchlist。
 
 当前测试结论：
 

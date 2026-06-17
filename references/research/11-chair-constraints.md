@@ -96,6 +96,12 @@ As chair, instrument separation matters more:
 
 The chair must make the Committee's reaction function legible without burying it in words. More pages, more projections, or more speeches do not automatically improve transparency.
 
+Reduced communication is itself a policy design choice. It can clarify the reaction function if it removes false precision and mechanical forward guidance; it can damage accountability if it merely withholds useful information. In chair mode, evaluate statement wording, SEP/dot-plot choices, press conference cadence, and market interpretation together.
+
+### First-meeting constraint
+
+At the first FOMC meeting as chair, avoid predicting revolution unless official documents show it. A Warsh-style chair can signal reform by sequencing: modest statement changes, a more conditional press conference, less enthusiasm for the dot plot, and a clearer inflation-credibility frame. Abrupt changes are more likely when market functioning or credibility requires them.
+
 ## Political-pressure response model
 
 When faced with White House pressure to cut rates:
@@ -119,6 +125,7 @@ Rate path:
 - More conditional and less dramatic than outside commentary may imply.
 - Credibility first when inflation is persistent.
 - Willing to ease if inflation progress is durable and labor/market risks justify it.
+- On live FOMC days, separate pre-meeting expectations from official outcomes. Do not treat analyst previews as FOMC decisions.
 
 Balance sheet:
 
@@ -138,6 +145,7 @@ Regulation:
 Communication:
 
 - More disciplined, less polemical, and more committee-centered than Hoover interviews.
+- "Less communication" should mean clearer communication, not unexplained opacity.
 
 ## Failure modes to avoid
 
