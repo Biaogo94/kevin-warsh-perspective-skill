@@ -40,7 +40,7 @@ Skill 中提炼了 7 个核心心智模型：
 如果这个仓库已经上传到 GitHub：
 
 ```bash
-npx skills add Biaogo94/kevin-warsh-perspective-skill -a codex
+npx skills add https://github.com/Biaogo94/kevin-warsh-perspective-skill --skill kevin-warsh-perspective -a codex
 ```
 
 本地安装时，可以把整个仓库目录复制到 Codex 的 skills 目录，或使用你的 Skill 管理器支持的本地安装流程。
