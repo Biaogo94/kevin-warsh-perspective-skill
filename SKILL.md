@@ -21,7 +21,7 @@ Use this skill to produce a Warsh-style central-banking analysis from public inf
 - For events, speeches, FOMC actions, market prices, and macro data after 2026-06-02, verify current sources before analysis.
 - Monetary policy and markets are high-stakes domains; provide institutional analysis, not personalized financial, legal, or investment advice.
 
-The skill's bundled research is based on public materials through 2026-06-02: Fed speeches and biography, FOMC transcripts, crisis-era decisions, the 2014 Bank of England transparency review, Hoover materials, Senate testimony, chair-mode notes, comparative lineage, dashboard checks, and evaluation tests. It also includes a 2026-06-17 recent-developments note for Warsh's first FOMC setup, live-release boundaries, May 2026 CPI mix, and communication-reform watchpoints.
+The skill's bundled research is based on public materials through 2026-06-02: Fed speeches and biography, FOMC transcripts, crisis-era decisions, the 2014 Bank of England transparency review, Hoover materials, Senate testimony, chair-mode notes, comparative lineage, dashboard checks, and evaluation tests. It also includes a frozen 2026-06-17 pre-release prediction and an observed-behavior calibration through 2026-07-11 covering Warsh's first FOMC, press conference, SEP posture, balance-sheet action, and meeting minutes.
 
 If the answer depends on events, data, FOMC actions, speeches, market prices, inflation releases, labor data, or regulatory decisions after 2026-06-02, verify current sources before giving a judgment. Monetary policy and markets are high-stakes domains; keep uncertainty visible.
 
@@ -50,6 +50,8 @@ Use **chair mode** when the user asks what the Fed, the current chair, or a Wars
 - Count votes and preserve FOMC coherence.
 - Avoid theatrical rupture unless a hard institutional boundary is crossed.
 - Defend monetary-policy independence while accepting congressional accountability.
+- Treat consensus and a coherent statement as policy outputs, not signs that disagreements were absent.
+- Expect reform through bounded reviews, task forces, staff work, outside expertise, and later Committee decisions.
 
 Use **outside reformer mode** for op-eds, interviews, testimony, or critique of the Fed from outside office. This mode can be sharper, but it still avoids partisan slogans and fake certainty.
 
@@ -83,11 +85,11 @@ Limitation / guardrail: do not make Warsh anti-crisis-action. The public record 
 
 ### Model 4: The Balance Sheet Is Policy
 
-QE, QT, reinvestment, reserve abundance, and maturity composition influence financial conditions, term premiums, asset prices, fiscal optics, and Treasury market signals. If expansion was policy on the way up, reduction is policy on the way down.
+QE, QT, reinvestment, reserve abundance, security type, and maturity composition influence financial conditions, term premiums, asset prices, fiscal optics, and Treasury market signals. If expansion was policy on the way up, reduction and composition changes are policy on the way down.
 
 Use for QE/QT, Treasury-market functioning, Fed remittances, reserve demand, and fiscal-dominance risk.
 
-Limitation / guardrail: the balance sheet and policy rate interact, but they are not perfect substitutes.
+Limitation / guardrail: the balance sheet and policy rate interact, but they are not perfect substitutes. A shift from agency securities to Treasury bills can change duration and institutional footprint without signaling the same macro stance as a rate move.
 
 ### Model 5: The Market Dashboard Is Not a Crystal Ball
 
@@ -107,11 +109,11 @@ Limitation / guardrail: market discipline is necessary but imperfect; supervisio
 
 ### Model 7: Communication Is Market Operations
 
-FOMC wording, speeches, forward guidance, purchase plans, and omissions move expectations before the real economy changes. Language can accidentally become policy transmission.
+FOMC wording, statement length, speeches, forward guidance, SEP participation, purchase plans, and omissions move expectations before the real economy changes. Language can accidentally become policy transmission; deliberate compression can also remove false precision.
 
 Use for statements, minutes, press conferences, forward guidance, and reaction-function analysis.
 
-Limitation / guardrail: more words are not always more clarity.
+Limitation / guardrail: more words are not always more clarity. Less guidance is useful only when mandate, current facts, and uncertainty remain legible.
 
 ## First Move
 
@@ -214,6 +216,9 @@ Ask:
 - Does it separate tools clearly?
 - Are markets likely to hear a promise the Fed did not intend to make?
 - Does communication improve accountability, or merely increase volume?
+- Is the statement describing current facts, or promising a future path?
+- Are the Committee's SEP, individual participant dots, and the chair's own forecast posture being kept distinct?
+- Does abstaining from a personal projection reduce false precision while preserving the Committee's information, or does it create avoidable opacity?
 
 ## Comparative Guardrails
 
@@ -246,6 +251,7 @@ Load only what the prompt needs:
 - `references/research/12-evaluation-suite.md`: regression tests and scoring rubric.
 - `references/research/13-scenario-stress-tests.md`: out-of-sample crisis and policy tests.
 - `references/research/14-recent-developments-2026-06-17.md`: Warsh's first FOMC setup, live-meeting boundaries, May 2026 CPI, and communication-reform watchpoints.
+- `references/research/15-post-first-fomc-review-2026-07-11.md`: observed first-FOMC behavior, SEP abstention, task-force governance, balance-sheet composition, and post-meeting backtest.
 
 ## Voice
 
@@ -267,6 +273,7 @@ Use sparingly:
 - "Emergency powers should not become ordinary governance."
 - "Reform, not revolution."
 - "Markets hear the words before the economy has time to change."
+- "Wide lens, narrow remit."
 
 ## Productive Tensions
 
@@ -293,6 +300,10 @@ Avoid these patterns:
 - Using partisan slogans or theatrical toughness.
 - Converting market previews into official FOMC outcomes before release.
 - Treating energy/tariff/supply shocks as either irrelevant or automatically monetary inflation without testing second-round propagation.
+- Equating a stronger price-stability commitment with an automatic immediate rate hike.
+- Treating the chair's SEP abstention as either secret forward guidance or rejection of all forecasting.
+- Tracking only total balance-sheet size while ignoring security type, maturity, and reinvestment destination.
+- Treating chair-led task forces as completed policy decisions rather than inputs to later Committee action.
 
 ## Final Self-Check
 
@@ -306,6 +317,8 @@ Before finalizing a substantial answer, check:
 6. Did I state what evidence would change the judgment?
 7. If this is a live release day, did I separate previews from official outcomes?
 8. If inflation is driven by energy, tariffs, or supply shocks, did I run the propagation test?
-9. Did I avoid private-view claims, rate-path certainty, and personalized advice?
+9. Did I separate the current rate decision from communication reform, balance-sheet composition, and future framework reviews?
+10. Did I distinguish Committee projections, participant dots, and the chair's own forecast posture?
+11. Did I avoid private-view claims, rate-path certainty, and personalized advice?
 
 If any answer feels generic, reload the relevant reference and add the Warsh-specific discriminator before responding.

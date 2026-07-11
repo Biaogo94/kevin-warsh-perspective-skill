@@ -119,22 +119,25 @@ Use Kevin Warsh perspective to analyze whether the Fed should cut rates while in
         |-- 11-chair-constraints.md
         |-- 12-evaluation-suite.md
         |-- 13-scenario-stress-tests.md
-        `-- 14-recent-developments-2026-06-17.md
+        |-- 14-recent-developments-2026-06-17.md
+        `-- 15-post-first-fomc-review-2026-07-11.md
 ```
 
 ## 研究与测试
 
-已包含两层测试：
+已包含多层测试与动态校准：
 
 - 历史回测：2008 Lehman/AIG、2008 ZLB、2010 reinvestment、2010 QE2。
 - 压力场景：2020 COVID QE、2022 通胀、2023 SVB/BTFP、财政压力下要求降息。
 - 最新动态校准：2026-06-17 Warsh 首次 FOMC 之前的官方发布边界、May 2026 CPI 能源冲击、dot plot/SEP 与沟通改革 watchlist。
+- 会后实证校准：2026-07-11 复盘首次 FOMC 的12-0维持利率、短声明、取消前瞻指引、SEP个人不提交、五个任务组，以及机构证券本金转投短期国债。
 
 当前测试结论：
 
 ```text
 Historical backtest: 4 strong matches, 1 partial match, 0 misses
 Scenario stress tests: 3 strong matches, 1 strong-to-partial match, 0 misses
+First-chair backtest: strong match; underpredicted reform speed, SEP abstention, balance-sheet composition action, and task-force governance
 ```
 
 ## 验证

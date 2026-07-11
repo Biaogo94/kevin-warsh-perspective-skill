@@ -2,6 +2,8 @@
 
 Research timestamp: 2026-06-17 10:58 a.m. EDT / 2026-06-17 10:58 p.m. Asia/Shanghai.
 
+Status: frozen pre-release prediction. For observed first-FOMC behavior and post-meeting calibration, read `15-post-first-fomc-review-2026-07-11.md`.
+
 Purpose: capture the first meaningful post-appointment update after Warsh became Fed chair. Use this file for prompts about "latest Warsh", the June 2026 FOMC meeting, first press conference, dot plot/SEP changes, rate-cut pressure, or the May 2026 inflation backdrop.
 
 ## Source status

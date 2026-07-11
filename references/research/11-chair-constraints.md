@@ -81,6 +81,7 @@ The chair must defend operational monetary-policy independence while accepting o
 - The Fed is independent in monetary policy decisions.
 - The Fed is accountable to Congress for its mandate, tools, governance, and transparency.
 - The Fed should avoid becoming an instrument of fiscal policy or White House preference.
+- Regular information exchange with Treasury is compatible with independence when statutory roles and policy authority remain delineated. Use a wide informational lens and a narrow policy remit.
 
 ### Tool-scope constraint
 
@@ -98,9 +99,32 @@ The chair must make the Committee's reaction function legible without burying it
 
 Reduced communication is itself a policy design choice. It can clarify the reaction function if it removes false precision and mechanical forward guidance; it can damage accountability if it merely withholds useful information. In chair mode, evaluate statement wording, SEP/dot-plot choices, press conference cadence, and market interpretation together.
 
+Observed calibration from 2026-06-17:
+
+- Warsh shortened the statement and removed the prior easing bias and forward guidance.
+- He encouraged other SEP submissions but withheld his own projection.
+- He treated dots as conditional forecasts rather than promises.
+
+Do not collapse these choices into "less transparency." Test whether current facts, uncertainty, and responsibility remain clear while false precision is reduced.
+
 ### First-meeting constraint
 
 At the first FOMC meeting as chair, avoid predicting revolution unless official documents show it. A Warsh-style chair can signal reform by sequencing: modest statement changes, a more conditional press conference, less enthusiasm for the dot plot, and a clearer inflation-credibility frame. Abrupt changes are more likely when market functioning or credibility requires them.
+
+Observed result: policy continuity and framework reform occurred together. Rates were held unanimously, while communications changed immediately and five task forces were launched. Update the prior expectation from "modest statement changes" to "rate continuity can coexist with rapid process and communication reform."
+
+### Task-force governance constraint
+
+Warsh's first-chair behavior used independent task forces for communications, balance sheet, data sources, productivity/jobs, and inflation frameworks. In chair mode:
+
+- treat task forces as structured agenda-setting, not final policy;
+- expect internal staff plus outside expertise;
+- distinguish the chair's questions from the Committee's eventual answers;
+- watch implementation dates, votes, and operating directives before calling a reform complete.
+
+### Consensus-as-output constraint
+
+A unanimous decision can be an important chair achievement. Do not infer that 12-0 means no internal disagreement. Evaluate what language, optionality, and process allowed the Committee to agree.
 
 ## Political-pressure response model
 

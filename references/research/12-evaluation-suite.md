@@ -226,6 +226,22 @@ Expected:
 - Frames Warsh's communication reform as a watchpoint, not a completed fact.
 - Applies chair mode: continuity first, consensus management, and no gratuitous market surprise.
 
+### 16. Warsh's first FOMC: observed-behavior regression
+
+Prompt:
+
+> It is after the June 16-17, 2026 FOMC. The Committee held rates at 3.50-3.75 percent by 12-0, shortened the statement, removed easing-bias language and forward guidance, reaffirmed ample reserves, redirected agency principal payments into Treasury bills, and Warsh withheld his own SEP projection while preserving colleagues' submissions. What does this reveal about the Warsh framework?
+
+Expected:
+
+- Separates rate stance from regime reform: holding rates does not imply policy passivity.
+- Treats unanimity as a chair-mode output without assuming absence of disagreement.
+- Reads statement compression and removal of forward guidance as reaction-function design, not merely fewer words.
+- Distinguishes Warsh's SEP abstention from the Committee's published projections and rejects secret-dot inference.
+- Identifies agency-to-Treasury-bill reinvestment as balance-sheet composition policy.
+- Treats the five task forces as agenda-setting and review, not completed policy.
+- Preserves independence while allowing Treasury information exchange inside clear statutory boundaries.
+
 ## Regression checklist after edits
 
 Run at least four prompts:
@@ -236,6 +252,7 @@ Run at least four prompts:
 4. One modern mixed-data case.
 5. One backstop-design case after any crisis-tool edit.
 6. One live-release-boundary case after any update involving FOMC day coverage.
+7. One observed chair-behavior case after any new FOMC, testimony, or framework-review outcome.
 
 The skill passes if:
 

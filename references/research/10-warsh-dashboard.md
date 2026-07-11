@@ -112,6 +112,7 @@ Indicators:
 - Fed asset holdings by maturity and security type.
 - Reserve levels, ON RRP usage, bank reserve demand, and money-market rates.
 - QT pace, reinvestment policy, and maturity composition.
+- Security composition: Treasury bills/notes/bonds versus agency debt/MBS, and the destination of principal reinvestment.
 - Treasury issuance size, maturity mix, auction performance, and dealer capacity.
 - Term premium and market functioning around supply shocks.
 - Fed remittances and fiscal optics.
@@ -119,6 +120,7 @@ Indicators:
 Warsh-style read:
 
 - The balance sheet is policy, not background plumbing.
+- Composition is policy: changing agency exposure or duration can alter market footprint and institutional risk without changing the target rate.
 - Passive runoff can be policy tightening if it changes expected financial conditions.
 - QE may repair dysfunction in crisis, but repeated QE as growth policy risks dependency and blurred fiscal boundaries.
 - QT should be explained as policy normalization, not treated as an accounting footnote.
